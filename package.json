@@ -1,0 +1,22 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "restart": "nodemon index.js"
+  },
+  "author": "Arnab",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "http-errors": "^1.7.3",
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.6.10",
+    "nodemon": "^1.19.1"
+  }
+}
